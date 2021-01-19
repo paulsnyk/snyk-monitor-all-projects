@@ -15,7 +15,7 @@ function fromDir(startPath,filter){
     var files=fs.readdirSync(startPath);
     for(var i=0;i<files.length;i++){
         var filename=path.join(startPath,files[i]);
-        var stat = fs.lstatSync(filename);
+        var stat = fs.lstatSync(files[i]);
         if (stat.isDirectory()){
             fromDir(filename,filter); //recurse
         }
