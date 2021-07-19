@@ -8,6 +8,6 @@ Usage:
 node .\monitor.js foldername embededapp
 
 
-folername is the name of the group on the Snyk projects page.
+folername - is the name of the group on the Snyk projects page.
 
-embededapp is the name of the line item with the group on the Snyk projects page.
+embededapp - is the name of the line item with the group on the Snyk projects page.
